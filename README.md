@@ -1,8 +1,10 @@
 # IOSProgrammingBook
 
-
+. 2018.02.04
+    增加第6章 用代码实现视图
+    
 . 2018.01.13
-    增加第五章，视图控制器  UITabBarController
+    增加第5章，视图控制器  UITabBarController
 
 
 
