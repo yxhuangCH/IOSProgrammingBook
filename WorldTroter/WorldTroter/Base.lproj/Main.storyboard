@@ -129,6 +129,22 @@
             </objects>
             <point key="canvasLocation" x="-153" y="-674"/>
         </scene>
+        <!--Web-->
+        <scene sceneID="ZVU-Hk-iQk">
+            <objects>
+                <viewController title="Web" id="0Ru-8Q-QkM" customClass="WebViewController" customModule="WorldTroter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xxk-ru-v7g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Ehw-4U-vlu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web" image="ConvertIcon" id="omg-UZ-VzM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3T-RT-3oI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-185" y="773"/>
+        </scene>
         <!--Map-->
         <scene sceneID="9xA-xk-7fG">
             <objects>
@@ -137,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hnr-7H-nlL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-116" y="135"/>
+            <point key="canvasLocation" x="-154" y="-9"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="6An-mY-NxX">
@@ -152,6 +168,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="m5I-rg-S1A"/>
                         <segue destination="SP8-Cn-UG2" kind="relationship" relationship="viewControllers" id="emh-Xd-LAd"/>
+                        <segue destination="0Ru-8Q-QkM" kind="relationship" relationship="viewControllers" id="TpR-9F-zib"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hAs-ci-eb4" userLabel="First Responder" sceneMemberID="firstResponder"/>

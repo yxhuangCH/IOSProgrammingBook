@@ -36,7 +36,7 @@ class MapViewController: UIViewController{
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false; // 为了兼容老系统的布局
         view.addSubview(segmentedControl)
         
-        // 激活锚8
+        // 激活锚点
         topConstraint.isActive = true;
         leadingConstraint.isActive = true;
         trailingConstraint.isActive = true;
